@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  @font-face {
+    font-family: Gilroy-ExtraBold;
+    src: url("C:/Users/hp/Downloads/Gilroy-FREE/Gilroy-FREE/Gilroy-ExtraBold.otf");
+  }
+}
+
+::selection{
+  color: blueviolet;
+  background: rgba(39, 36, 32, 0.274);
+}
